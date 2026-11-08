@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+bank_marketing.zip
+.DS_Store
+.streamlit/secrets.toml
