@@ -68,7 +68,7 @@ The training script calculates Accuracy, ROC-AUC, Precision, Recall, F1 Score, a
 | **Overall winner for this dataset** | **Logistic Regression** is the strongest overall model based on this comparison. It achieves the highest AUC, recall, F1 score, and MCC, offering a better balance between identifying actual subscribers and limiting classification errors. KNN has higher accuracy, but its substantially lower recall makes it less suitable when identifying the positive `yes` class is important. |
 
 ## Streamlit application
-
+**Live Streamlit application:** https://bank-marketing-ml-2026aj05585.streamlit.app/
 The application provides:
 
 - CSV upload for labelled test data.
