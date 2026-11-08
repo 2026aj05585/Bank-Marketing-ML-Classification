@@ -19,7 +19,7 @@ The data is split into training and test partitions using an 80:20 stratified sp
 
 ## c. GitHub Repository Link
 
-**Repository URL:** [Add your public GitHub repository URL here after creating the repository.]
+**Repository URL:** [2026aj05585/Bank-Marketing-ML-Classification]
 
 Repository contents:
 - `train.py` — downloads the official dataset, trains and evaluates all five models, and creates model/report/test-data artifacts.
