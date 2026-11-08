@@ -44,6 +44,8 @@ The following classifiers are implemented on the same training/test split:
 
 The training script calculates Accuracy, ROC-AUC, Precision, Recall, F1 Score, and Matthews Correlation Coefficient (MCC). Positive-class metrics use `yes` as the positive label.
 
+The following results are from the held-out test set using the same 80:20 stratified split and random state 42 for all five classifiers.
+
 ### Model comparison table
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
@@ -67,7 +69,6 @@ The training script calculates Accuracy, ROC-AUC, Precision, Recall, F1 Score, a
 | Support Vector Machine | Achieved 83.31% accuracy and an AUC of 0.8007, close to Logistic Regression. Its recall (0.6455), F1 score (0.4656), and MCC (0.3973) are also competitive, although slightly below Logistic Regression. |
 | **Overall winner for this dataset** | **Logistic Regression** is the strongest overall model based on this comparison. It achieves the highest AUC, recall, F1 score, and MCC, offering a better balance between identifying actual subscribers and limiting classification errors. KNN has higher accuracy, but its substantially lower recall makes it less suitable when identifying the positive `yes` class is important. |
 
-## Streamlit application
 **Live Streamlit application:** https://bank-marketing-ml-2026aj05585.streamlit.app/
 The application provides:
 
